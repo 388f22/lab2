@@ -1,1 +1,1 @@
-FROM eecs388/firefox
+FROM eecs388/project2

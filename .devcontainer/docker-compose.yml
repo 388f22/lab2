@@ -13,6 +13,8 @@ services:
             - 3881:5900
         volumes:
             - ..:/workspaces/lab2
+            - ./prefs.js:/config/.ffprofile/prefs.js
+            - ./mozilla.cfg:/opt/firefox/mozilla.cfg
     stealer:
         build: .
         volumes:
